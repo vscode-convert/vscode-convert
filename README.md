@@ -15,3 +15,7 @@ Releasing first version with minimal features. More to be added soon.
 ### 0.0.1
 
 Initial release of VSCode Convert
+
+### 0.0.2
+
+Updated README, icons, etc.
