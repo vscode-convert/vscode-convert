@@ -3,7 +3,11 @@
 	"displayName": "VSCode Convert",
 	"description": "Converts selected text into various forms, e.g UPPERCASE, lowercase, camelCase, etc.",
   "version": "0.0.1",
-  "publisher": "vscode-convert",
+  "publisher": "vikash-ck-dev",
+  "repository": {
+    "url": "https://github.com/vscode-convert/vscode-convert",
+    "type": "public"
+  },
 	"engines": {
 		"vscode": "^1.48.0"
 	},
