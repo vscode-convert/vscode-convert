@@ -2,7 +2,7 @@
 	"name": "vscode-convert",
 	"displayName": "VSCode Convert",
 	"description": "Converts selected text into various forms, e.g UPPERCASE, lowercase, camelCase, etc.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "vikash-ck-dev",
 	"repository": {
 		"url": "https://github.com/vscode-convert/vscode-convert",
@@ -23,8 +23,8 @@
 	],
 	"icon": "icon.png",
 	"galleryBanner": {
-    "color": "#501EB5",
-    "theme": "dark"
+		"color": "#501EB5",
+		"theme": "dark"
 	},
 	"activationEvents": [
 		"onCommand:vscode-convert.uppercase",
