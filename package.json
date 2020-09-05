@@ -23,7 +23,8 @@
 	],
 	"icon": "icon.png",
 	"galleryBanner": {
-		"color": "#501EB5"
+    "color": "#501EB5",
+    "theme": "dark"
 	},
 	"activationEvents": [
 		"onCommand:vscode-convert.uppercase",
