@@ -13,7 +13,13 @@
 	},
 	"categories": [
 		"Other"
-	],
+  ],
+  "keywords": [
+    "string",
+    "convert",
+    "transform",
+    "naming convention"
+  ],
 	"activationEvents": [
         "onCommand:vscode-convert.uppercase",
         "onCommand:vscode-convert.lowercase"

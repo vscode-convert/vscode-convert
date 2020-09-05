@@ -1,12 +1,12 @@
-# VSCode Convert README
+# VSCode Convert
 
 This extension provides many useful commands to convert strings into various forms. e.g. convert a regular string to uppercase, lower case or camel case.
 
 ## Features
 
 Convert selected texts to -
-- Uppercase
-- Lowercase
+- UPPERCASE
+- lowercase
 
 ## Release Notes
 
