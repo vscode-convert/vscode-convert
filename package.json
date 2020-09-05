@@ -18,8 +18,13 @@
     "string",
     "convert",
     "transform",
-    "naming convention"
+    "naming convention",
+    "camelcase snakecase"
   ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#501EB5"
+  },
 	"activationEvents": [
         "onCommand:vscode-convert.uppercase",
         "onCommand:vscode-convert.lowercase"
