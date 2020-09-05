@@ -1,7 +1,7 @@
 {
   "name": "vscode-convert",
 	"displayName": "VSCode Convert",
-	"description": "Convert strings",
+	"description": "Converts selected text into various forms, e.g UPPERCASE, lowercase, camelCase, etc.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.48.0"
