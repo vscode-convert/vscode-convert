@@ -1,33 +1,33 @@
 {
-  "name": "vscode-convert",
+	"name": "vscode-convert",
 	"displayName": "VSCode Convert",
 	"description": "Converts selected text into various forms, e.g UPPERCASE, lowercase, camelCase, etc.",
-  "version": "0.0.1",
-  "publisher": "vikash-ck-dev",
-  "repository": {
-    "url": "https://github.com/vscode-convert/vscode-convert",
-    "type": "public"
-  },
+	"version": "0.0.2",
+	"publisher": "vikash-ck-dev",
+	"repository": {
+		"url": "https://github.com/vscode-convert/vscode-convert",
+		"type": "public"
+	},
 	"engines": {
 		"vscode": "^1.48.0"
 	},
 	"categories": [
 		"Other"
-  ],
-  "keywords": [
-    "string",
-    "convert",
-    "transform",
-    "naming convention",
-    "camelcase snakecase"
-  ],
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#501EB5"
-  },
+	],
+	"keywords": [
+		"string",
+		"convert",
+		"transform",
+		"naming convention",
+		"camelcase snakecase"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#501EB5"
+	},
 	"activationEvents": [
-        "onCommand:vscode-convert.uppercase",
-        "onCommand:vscode-convert.lowercase"
+		"onCommand:vscode-convert.uppercase",
+		"onCommand:vscode-convert.lowercase"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -35,11 +35,11 @@
 			{
 				"command": "vscode-convert.uppercase",
 				"title": "Convert to Uppercase"
-      },
-      {
-        "command": "vscode-convert.lowercase",
-        "title": "Convert to Lowercase"
-      }
+			},
+			{
+				"command": "vscode-convert.lowercase",
+				"title": "Convert to Lowercase"
+			}
 		]
 	},
 	"scripts": {
