@@ -26,4 +26,6 @@
 ## Others
 - Apply to selection
 - Apply to selection and all other content which match the selection
+- Internationalization / Localization
+- Telemetry
 
