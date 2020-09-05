@@ -1,7 +1,7 @@
 {
-  "name": "whitespace",
-	"displayName": "whitespace",
-	"description": "Show whitspace characters",
+  "name": "vscode-convert",
+	"displayName": "VSCode Convert",
+	"description": "Convert strings",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.48.0"
@@ -10,15 +10,20 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:whitespace.helloWorld"
+        "onCommand:vscode-convert.uppercase",
+        "onCommand:vscode-convert.lowercase"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "whitespace.helloWorld",
-				"title": "Hello World"
-			}
+				"command": "vscode-convert.uppercase",
+				"title": "Convert to Uppercase"
+      },
+      {
+        "command": "vscode-convert.lowercase",
+        "title": "Convert to Lowercase"
+      }
 		]
 	},
 	"scripts": {
