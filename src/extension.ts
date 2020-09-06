@@ -24,7 +24,6 @@ export function activate(context: vscode.ExtensionContext) {
   const registerCommand = (command: string, converter: ConverterFunction) => {
     let disposable = vscode.commands.registerCommand(command, () => {
       applyConverter(converter);
-      vscode.window.showInformationMessage('vscode-convert exected');
     });
     context.subscriptions.push(disposable);
   };
