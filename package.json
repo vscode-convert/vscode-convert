@@ -50,11 +50,11 @@
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile && yarn run lint",
 		"test": "node ./out/test/runTest.js",
-		"changelog": "git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md'",
+		"changelog": "git add CHANGELOG.md && git commit -m 'other: updated CHANGELOG.md'",
 		"tag": "git push origin && git push origin --tags",
-		"release:major": "changelog -M && yarn run changelog && npm version major && yarn run tag",
-		"release:minor": "changelog -m && yarn run changelog && npm version minor && yarn run tag",
-		"release:patch": "changelog -p && yarn run changelog && npm version patch && yarn run tag",
+		"release:major": "changelog -M -x other && yarn run changelog && npm version major && yarn run tag",
+		"release:minor": "changelog -m -x other && yarn run changelog && npm version minor && yarn run tag",
+		"release:patch": "changelog -p -x other && yarn run changelog && npm version patch && yarn run tag",
 		"publish": "vsce publish"
 	},
 	"devDependencies": {
