@@ -1,5 +1,7 @@
 import * as vscode from 'vscode';
-import converter, { ConverterFunction } from './converter';
+import { ConverterFunction } from './converter_function';
+import uppercase from "./case/uppercase";
+import lowercase from "./case/lowercase";
 
 export function activate(context: vscode.ExtensionContext) {
   const applyConverter = (convert: ConverterFunction) => {
@@ -27,8 +29,8 @@ export function activate(context: vscode.ExtensionContext) {
     context.subscriptions.push(disposable);
   };
 
-  registerCommand('vscode-convert.uppercase', converter.toUpperCase);
-  registerCommand('vscode-convert.lowercase', converter.toLowerCase);
+  registerCommand('vscode-convert.uppercase', uppercase);
+  registerCommand('vscode-convert.lowercase', lowercase);
 }
 
 // this method is called when your extension is deactivated

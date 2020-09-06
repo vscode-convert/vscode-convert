@@ -1,0 +1,1 @@
+export type ConverterFunction = (text: string) => string;
