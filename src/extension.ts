@@ -2,6 +2,8 @@ import * as vscode from 'vscode';
 import { ConverterFunction } from './converter_function';
 import uppercase from "./case/uppercase";
 import lowercase from "./case/lowercase";
+import camelCaseToSnakeCase from "./case/camelCaseToSnakeCase";
+import snakeCaseToCamelCase from "./case/snakeCaseToCamelCase";
 
 export function activate(context: vscode.ExtensionContext) {
   const applyConverter = (convert: ConverterFunction) => {
@@ -30,6 +32,8 @@ export function activate(context: vscode.ExtensionContext) {
 
   registerCommand('vscode-convert.uppercase', uppercase);
   registerCommand('vscode-convert.lowercase', lowercase);
+  registerCommand('vscode-convert.camelcase-to-snakecase', camelCaseToSnakeCase);
+  registerCommand('vscode-convert.snakecase-to-camelcase', snakeCaseToCamelCase);
 }
 
 // this method is called when your extension is deactivated

@@ -28,7 +28,9 @@
 	},
 	"activationEvents": [
 		"onCommand:vscode-convert.uppercase",
-		"onCommand:vscode-convert.lowercase"
+		"onCommand:vscode-convert.lowercase",
+		"onCommand:vscode-convert.snakecase-to-camelcase",
+		"onCommand:vscode-convert.camelcase-to-snakecase"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -40,6 +42,14 @@
 			{
 				"command": "vscode-convert.lowercase",
 				"title": "Convert to Lowercase"
+			},
+			{
+				"command": "vscode-convert.camelcase-to-snakecase",
+				"title": "Convert from camel case to snake case"
+			},
+			{
+				"command": "vscode-convert.snakecase-to-camelcase",
+				"title": "Convert from snake case to camel case"
 			}
 		]
 	},
